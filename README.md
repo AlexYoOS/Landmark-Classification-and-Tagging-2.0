@@ -10,12 +10,12 @@ This supervised learning task involves training an artificial intelligence (AI) 
 
 ## Structure and Features of this Showcase
 
-**Data Preprocessing:** This includes resizing images to a uniform size, normalizing pixel values, and augmenting the data with techniques like rotation, flipping, or brightness adjustments to make the model more robust.
-**Feature Extraction:** Feature extraction involves converting the images into numerical representations that the AI model can understand. For computational efficiency, transfer learning was used for knowledge transfer and less computing.
-**Model Training:** The model is trained using the training and validation dataset. During training, the model learns to map the input images to their corresponding landmark labels. This is done through a process of adjusting model parameters (weights and biases) using optimization algorithms such as gradient descent to minimize the prediction error.
-**Hyperparameter Tuning:** Various hyperparameters, like learning rate, batch size, and network architecture, are tuned to optimize the model's performance.
-**Validation and Testing:** The model's performance is evaluated on the test set to assess its accuracy and generalization to new, unseen data. Accuracy as the key metric is used to quantify the model's performance.
-**Deployment:** The mode of deployment in this showcase is a command-line application, where it can classify landmarks in new images.
+- **Data Preprocessing:** This includes resizing images to a uniform size, normalizing pixel values, and augmenting the data with techniques like rotation, flipping, or brightness adjustments to make the model more robust.
+- **Feature Extraction:** Feature extraction involves converting the images into numerical representations that the AI model can understand. For computational efficiency, transfer learning was used for knowledge transfer and less computing.
+- **Model Training:** The model is trained using the training and validation dataset. During training, the model learns to map the input images to their corresponding landmark labels. This is done through a process of adjusting model parameters (weights and biases) using optimization algorithms such as gradient descent to minimize the prediction error.
+- **Hyperparameter Tuning:** Various hyperparameters, like learning rate, batch size, and network architecture, are tuned to optimize the model's performance.
+- **Validation and Testing:** The model's performance is evaluated on the test set to assess its accuracy and generalization to new, unseen data. Accuracy as the key metric is used to quantify the model's performance.
+- **Deployment:** The mode of deployment in this showcase is a command-line application, where it can classify landmarks in new images.
 
 >The project outlines the key steps to implement this supervised learning task. Parts like data gathering and labeling, as well as more tailored approaches like "fine-tuning" to the dataset and model deployment in the cloud, have been omitted. This showcase demonstrates the ability to conduct a computer vision problem from idea to solution upon request.
 
