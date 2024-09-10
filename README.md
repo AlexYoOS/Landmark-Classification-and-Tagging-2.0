@@ -1,6 +1,6 @@
 # Landmark Classification and Social Media Tagging
 
-
+![](alice-triquet-j1k5vKRFUHY-unsplash.jpg)
 ## _Showcase of the core workload of a supervised learning task in Computer Vision_
 
 
